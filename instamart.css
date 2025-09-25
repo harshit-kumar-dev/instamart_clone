@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 3000px;
+    margin: auto;
+}
+.location:hover{
+    transform: scale(1.05);
+}
+.locationhead{
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+
+    .location{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 300px;
+        height: 70px;
+        margin-left: 20px;
+
+        img{
+            background-color: blue;
+            height: 30px;
+            border-radius: 12px;
+            padding: 10px;
+            margin-right: 5px;
+        }        
+    }        
+    .profile{
+        background-color: darkslategray;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }   
+}
+
+.searchmain{
+    /* border: 1px solid black; */
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0.5px;
+}
+input{
+    /* border: 1px solid rgb(20, 20, 20); */
+    margin-top: 15px;
+    width: 1150px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.thumbnail{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: 400px;
+    background-color: blue;
+
+    .sale{
+        height: 250px;
+        /* border: 1px solid black; */
+    }
+}
+.maincaterory{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    img{
+        height: 122px;
+    }
+}
+
+.products{
+    /* border: 1px solid black; */
+    height: 300px;
+    display: flex;
+
+    .oneproduct{
+        /* border: 1px solid black; */
+        width: 169px;
+        height: 300px;
+        /* display: flex; */
+
+        img{
+            width: 180px;
+            height: 180px;
+        }
+        .hotimage{
+            padding: 10px;
+            border-radius: 20px;
+            gap: 2px
+            ;
+        }
+        
+
+        h4, h6{
+            display: inline;
+            color: rgb(61, 61, 61);
+        }
+    }
+}
+
+.adv{
+    width: 100%;
+    height: 220px;
+}
+
+.groceryproducts{
+    /* border: 1px solid black; */
+    height: 200px;
+    display: flex;
+    
+
+    .onegroceryproduct{
+        /* border: 1px solid black; */
+        height: 200px;
+
+        .img{
+            width: 10px;
+            
+        }
+        h4, h6{
+            /* display: inline; */
+            padding-left: 10px;
+            color: rgb(71, 71, 71);
+        }
+    }
+}
+
+.fruit{
+    width: 148px;
+    height: 150px;
+}
+
